@@ -25,7 +25,7 @@ img{
 
 #popOut{
     display:none;
-    background-color: black;
+    background-color:transparent;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
@@ -37,9 +37,10 @@ p{
     position:absolute;
     top:0;
     right: 0;
-    color:white;
+    color:black;
     text-align: right;
     cursor: pointer;
+    font-weight: bold;
 }
 p:hover{
     color:red;
